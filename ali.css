@@ -1,0 +1,536 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 238, 238); /* Cambia el color de fondo aquí */
+    padding: 10px 20px;
+    height: 11vh;
+}
+.logo img {
+    height: 50px; /* Ajusta el tamaño del logo aquí */
+}
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    margin-left: 20px;
+}
+.menu li a {
+    text-decoration: none;
+    color: #364261; /* Cambia el color del texto aquí */
+    font-family: "berlindelgado";
+}
+.menu li a:hover {
+    text-decoration: underline; /* Efecto al pasar el mouse */
+    color: gray;
+}
+
+.imagen1{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+img {
+    height: auto;
+}
+
+h2{
+    font-size: 2.34rem;
+    font-family: "berlingrueso";
+}
+h1{
+    font-size: 1.9rem;
+    font-family: "berlindelgado";
+}
+
+.home {
+    background-image: linear-gradient(#0000006e,#0000006e),
+     url(img/corazoncito.jpg);
+     background-position: center center;
+     background-size:cover;
+}
+.home_container {
+    align-content: center;
+}
+.home_data {
+    text-align: center;
+}
+.home_title {
+    font-size: 6rem;
+    color: #B0C2C5;
+    margin-bottom: .5rem;
+}
+.home_subtitle {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.intro{
+    background-image: url(img/intro.png);
+    background-position: center;
+    width: 26cm;
+    height: 12cm;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+    padding: 10%;
+    & p{
+        font-size: 1.3rem;
+        text-align: center;
+        width: 40vw;
+        margin-top: 3%
+    }
+}
+
+.intro2{
+    margin-top: 5%;
+}
+
+p{
+    font-size: 1.65rem;
+    font-family: "centurydelgado";
+}
+
+
+.MISION{
+    text-align: right;
+    margin-left: 60%;
+}
+
+.misionn{
+    display: flex;
+    justify-content: left; 
+    margin-left: 9%;
+    margin-top: 2%;
+}
+
+.mision{
+    background-image: url(img/misi.png);
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: left;
+    width: 24cm;
+    height: 18cm;
+    & p{
+        font-size: 1.3rem;
+        text-align: left;
+        margin-left: 9%;
+        margin-top: 3%;
+        width: 30vw;
+    }
+}
+
+.imision{
+    width: 65px;
+    margin-top: 28.5%;
+}
+
+.vision{
+    background-image: url(img/visi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2%;
+    width: 110vh;
+    height: 65vh;
+    text-align: right;
+    margin-left: 50.5%;
+    & p{
+        font-size: 1.3rem;
+        margin-left: 25%;
+        margin-top: 2%;
+        width: 30vw;
+    }
+}
+.visionn{
+    display:flex;
+    margin-left: 58%;
+    margin-top: 6%;
+}
+
+.mis{
+    text-align: center;
+    justify-content: center;
+    margin-top: 28.5%;
+}
+
+
+.vis{
+    text-align: right;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.ivision{
+  width:65px;
+  margin-top: 5%;
+}
+
+
+.section-title {
+    font-size: 2.0rem;
+    color: #393939;
+}
+
+.section-subtitle {
+    font-size: 2.6rem;
+    font-family: "berlindelgado";
+    display: block;
+    color: #364261;
+    margin-bottom: .5rem;
+    margin-top: 30%;
+}
+
+.tk-container {
+    background-image: url(img/nosotros.png);
+    background-position: center;
+    background-size: cover;
+    height: 20cm;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 7%;
+    padding: 4%;
+}
+.tk-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.about_data {
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.about_description {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: 4%;
+    
+}
+.about_img {
+    border-radius: .5rem;
+    justify-self: center;
+    width: 15cm;
+    margin-top: 24%;
+}
+
+.colorfondito{
+    background-image: url(img/estratitulo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding: 7%;
+    height: 54vh;
+    margin-top: 12%;
+}
+
+.estrategias{
+    text-align: center; 
+    margin-left: 2%;
+}
+
+.descripcion{
+    width: 62vw;
+    font-size: 1.3rem;
+    margin-top: 1%;
+    margin-left: 12%;
+}
+.card{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    & p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    & h1{
+        font-size: 1.9rem;
+    }
+}
+
+.color{
+    background-image: url(img/estrategias.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:contain ;
+    height:18cm;
+}
+
+.card__perfil{
+    width: 400px;
+    height: 470px;
+    border:#252424 solid;
+    border-radius: 2%;
+    margin-top: 5%;
+}
+img{
+    width: 60px;
+}
+
+.card__nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.contenedor1{
+    width: 90px;
+    height: 125px;
+    margin-top: 3%;
+}
+
+.contenedor2{
+    width: 110px;
+    height: 125px;
+    margin-top: 3%;
+}
+
+.contenedor3{
+    width: 110px;
+    height: 130px;
+    margin-top: 3%;
+}
+
+.card__descripcion{
+    margin: auto;
+    margin-top: 12%;
+}
+
+@media screen and (min-width:576px) {
+    .about_container,
+    .app_container {
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .about_data, .about_initial{
+        text-align: initial;
+    }
+
+}
+
+@media screen and (min-width:721px) {
+    .home_container {
+        height: 550px;
+    }
+}
+
+.poralgo{
+    text-align: center;
+    background-image: url(img/titulotesti.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+    & p{
+        margin-top: 3%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+.testimonio{
+    margin-top: 12%;
+}
+
+.testimonio1{
+    background-image: url(img/testimonio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2%;
+    height: 90vh;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+.testimonio2{
+    margin-top: 8%;
+}
+
+.entero{
+    display: flex;
+}
+.entero2{
+    display: flex; 
+    flex-direction: column;
+    margin: 0;
+    margin-left: 2%; 
+}
+
+.fondo2{
+    background-image: url(img/testimonio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2%;
+    height: 90vh;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+.monio1{
+   margin-top: 9%;
+}
+
+
+
+.textotesti{
+    display: flex;
+    flex-direction: row;
+    width: 43.5vw;
+    margin: auto;
+    margin-top: 2%;
+    & p{
+        font-size: 1.4rem;
+        width: 23.7vw;
+        margin-top: 4%;
+    }
+}
+
+.video1{
+    margin-left: 6%;
+}
+
+.titulointe{
+    margin: auto;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.nt2{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   & p{
+    width: 30vw;
+    font-size: 1.2rem;
+   }
+}
+
+.integrantesmajo{
+    width: 212px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.nombre1{
+    background-image: url(img/integrantes.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    padding: 3%;
+    margin: 5%;
+    & p{
+        margin-top: 7%;
+        width: 25vw;
+    }
+}
+
+.nombre2{
+    background-image: url(img/integrantes.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    padding: 3%;
+    margin: 5%;
+    & p{
+        margin-top: 7%;
+        width: 22vw;
+    }
+}
+
+.pie-pagina{
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.281),rgba(255, 255, 255, 0.281)),
+    url(img/fondoazul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    & p{
+        font-size: 1.2rem;
+    }
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h1{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 60px;
+    height: 55px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(41, 27, 168);
+}
+.pie-pagina .grupo-2{
+    background-color: #364261;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
