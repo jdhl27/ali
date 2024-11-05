@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "centurydelgado";
+    src: url(Fonts/CenturyGothic.ttf);
+}
+
+@font-face {
+    font-family: "centurygruesa";
+    src: url(Fonts/GOTHICB.TTF);
+}
+
+@font-face {
+    font-family: "centurymas";
+    src: url(Fonts/GOTHICB0.TTF);
+}
+
+@font-face {
+    font-family: "berlindelgado";
+    src: url(Fonts/BRLNSR.TTF);
+}
+
+@font-face {
+    font-family: "berlingrueso";
+    src: url(Fonts/BRLNSB.TTF);
+}
